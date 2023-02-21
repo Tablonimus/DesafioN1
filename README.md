@@ -55,6 +55,8 @@ Son un total de 39 test a pasar, intenta pasar como mínimo el 60% de los tests!
 
 Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
 
+
+
 ### 3. ENTREGA
 
 Correr por ultima vez los tests con el comando npm test y verificar cuantos pasan. (no pongas level en el comando ya que debes correr todos los tests en conjunto para sacar captura del total)
