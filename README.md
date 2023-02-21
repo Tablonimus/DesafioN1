@@ -1,14 +1,22 @@
 # Bienvenido al Desafio sobre JavaScript de DEV.F.
 
-¡Por favor lee con atención!
+¡Por favor lee con atención todo y si tienes alguna duda, charlarlo con tu sensei!
 
 Hay cosas puntuales que tal vez no vimos específicamente en el material de las clases, vas a tener que investigar un poquito por tu cuenta (el buscador de Google es muy útil en estos casos).
+
+Recuerda que debes tener instalado estos programas, te dejo al lado el link de descarga por si no los tienes!: 
+
+-Code Visual Studio ( https://code.visualstudio.com/download )
+-Node.js  ( https://nodejs.org/es/download )
+-Consola de Git (bash) ( https://git-scm.com/downloads )
+
+
 
 ### 1. FORKEAR REPOSITORIO EN TU CUENTA
 
 Primero debes forkear este repo, haciendo click en el botón `fork` de arriba a la derecha en la plataforma de Git Hub.
 
-Una vez que tengas una copia de este repo en tu cuenta de `github`, cloná el repo dentro de tu pc(debes clonarlo desde TU PROPIA cuenta de GitHub.). Una vez clonado entrá a esa carpeta y ejecutá los siguientes comandos desde la consola bash:
+Una vez que tengas una copia de este repo en tu cuenta de `github`, cloná el repo dentro de tu pc(debes clonarlo desde TU PROPIA cuenta de GitHub). Una vez clonado entrá a esa carpeta y ejecutá los siguientes comandos desde la consola bash:
 
     npm install
     npm test
@@ -26,35 +34,10 @@ Correr por ultima vez los tests y verificar cuantos pasan. Ten en cuenta que si 
 
 Saca un print de pantalla de tus tests.( Envia a tus senseis la captura de pantalla con el resultado de los test via slack.)
 
-Luego, debes subir un commit a tu repo. Para hacerlo, debes ejecutar el siguiente comando:
+Luego, debes subir un commit a tu repositorio y actualizarlo. Para hacerlo, debes ejecutar:
 
     git add .
-    git commit -m 'desafio superado commit'
+    git commit -m 'desafio superado'
     git push origin main
 
-Una vez finalizado, chequea que veas los cambios reflejados en el repo de tu cuenta de github (entrando a tu repo desde el browser.)
 
-### GUIA DE ERRORES COMUNES
-
-Para identificar el error, vas a tener que leerlo en la consola.
-
-- "jest" no se reconoce como un comando externo o interno...:
-
-  1. Borrar la carpeta `node_modules` y el archivo `package-lock.json` e instalar nuevamente ( `npm install` ).
-  2. Si esto no funciona, instalar test con el comando `npm install jest`.
-
-- 1 failed, 1 total:
-
-  1. Tenes un error de sintaxis. Revisa el último ejercicio que hayas hecho, seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
-
-- Author identity unknown.
-
-  1. Intenta ejecutar los siguientes comandos para configurar tu cuenta:
-
-     - git config --global user.name "Tu usuario de GitHub aca"
-     - git config --global user.email "Tu email aca"
-
-  2. Ingresa a [Github](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) y sigue las instrucciones para configurar tu token.
-
-- La consola se tilda en `Runs`:
-  1. Revisa tu código, tenes un bucle infinito. Tenes que checkear la condición de corte de tus bucles.
