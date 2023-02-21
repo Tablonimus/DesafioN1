@@ -31,6 +31,8 @@ NO DEBES TOCAR OTRO ARCHIVO QUE NO SEA "desafio.js"
 Son un total de 39 test a pasar, intenta pasar los que mas puedas!
 Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
 
+
+
 ### 3. ENTREGA
 
 Correr por ultima vez los tests y verificar cuantos pasan. 
