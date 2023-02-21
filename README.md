@@ -28,9 +28,12 @@ Una vez que tengas una copia de este repo en tu cuenta de `github`, cloná el re
 Tu tarea es completar el código en `desafio.js` de tal forma que pasen la mayoría de los tests.
 NO DEBES TOCAR OTRO ARCHIVO QUE NO SEA "desafio.js"
 
+Son un total de 39 test a pasar, intenta pasar los que mas puedas!
+Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
+
 ### 3. ENTREGA
 
-Correr por ultima vez los tests y verificar cuantos pasan. Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
+Correr por ultima vez los tests y verificar cuantos pasan. 
 
 Saca un print de pantalla de tus tests.( Envia a tus senseis la captura de pantalla con el resultado de los test via slack.)
 
