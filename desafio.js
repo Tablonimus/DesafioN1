@@ -24,6 +24,7 @@ function sonIguales(elemento1, elemento2) {
   // Devuelve "true" si "elemento1" y "elemento2" son estrictamente iguales
   // De lo contrario, devuelve "false"
   //↓↓↓ Tu código: ↓↓↓ */
+  return elemento1 === elemento2;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -240,6 +241,48 @@ La funcion debe devolver el nuevo array. */
   // Tu código:
 }
 
+/* 
+------------------------------LEVEL 4----------------------------------
+__________________|      |____________________________________________
+     ,--.   ,--.       ,--.       ,--.     ,--.   ,--.
+    |oo  | | oo |     | oo |     | oo |   | oo | |  oo|
+o  o|~~  | | ~~ | o   | ~~ | o   | ~~ |   | ~~ | |  ~~|o  o  o  o  o  o  o  o  o  o  o
+    |/\/\| |/\/\|     |/\/\|     |/\/\|   |/\/\| |/\/\|
+__________________        ____________________________________________
+                  |      |
+
+------------------------------LEVEL 4----------------------------------
+*/
+
+function deObjetoAmatriz(objeto) {
+  // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa
+  // un par clave-valor en forma de matriz.
+  //Ejemplo:
+  /*objeto({  D: 1,  
+    B: 2,  
+    C: 3 }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
+  //Escribe tu código aquí
+}
+
+function numberOfCharacters(string) {
+  //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece
+  //en formato par clave-valor.
+       //dds         
+  //Escribe tu código aquí
+  //  { d : 2 ,
+  //   s : 1}
+}
+
+
+function buscoInterseccion(arreglo1, arreglo2) {
+  //Existen dos arrays, cada uno con 5 números. A partir de ello, escribir una función que permita
+  //retornar un nuevo array con la intersección de ambos elementos. Ej: [4,2,3,6,8].
+  //Si no tienen elementos en común, retornar un arreglo vacío.
+  //Aclaración: los arreglos no necesariamente tienen la misma longitud
+  //Escribe tu código aquí
+
+}
+
 // // No modificar nada debajo de esta línea//
 // // =======================================================================
 module.exports = {
@@ -274,4 +317,7 @@ module.exports = {
   mesesDelAño,
   elementosMayores,
   mayorACien,
+  deObjetoAmatriz,
+  numberOfCharacters,
+  buscoInterseccion
 };

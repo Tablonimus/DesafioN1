@@ -7,30 +7,7 @@ const {
   elevarAlCubo,
   elevar,
   esPositivo,
-  combinarNombres,
-  obtenerSaludo,
-  agregarSimboloExclamacion,
-  deEuroAdolar,
-  esVocal,
-  esDiezOCinco,
-  estaEnRango,
-  operadoresLogicos,
-  tablaDelSeis,
-  tieneTresDigitos,
-  obtenerLargoDelArray,
-  incrementarPorUno,
-  devolverPrimerElemento,
-  devolverUltimoElemento,
-  dePalabrasAFrase,
-  arrayContiene,
-  agregarNumeros,
-  cuentoElementos,
-  empiezaConNueve,
-  todosIguales,
-  mesesDelAño,
-  elementosMayores,
-  mayorACien,
-} = require("../desafio.js");
+ } = require("../desafio.js");
 
 describe("sonIguales(elemento1, elemento2)", function () {
   it("Deberia devolver true si los argumentos son estrictamente iguales y sino false", function () {
@@ -63,6 +40,7 @@ describe("esImpar(num)", function () {
     expect(esImpar(0)).toBe(false);
   });
 });
+
 describe("elevarAlCuadrado(num)", function () {
   it("Deberia devolver el numero elevado al cuadrado", function () {
     expect(elevarAlCuadrado(6)).toBe(36);
