@@ -1,4 +1,4 @@
-# Bienvenido al Desafio sobre JavaScript de DEV.F.
+# Bienvenido al Desafio sobre JavaScript.
 
 ¡Por favor lee con atención todo y si tienes alguna duda, charlarlo con tu sensei!
 
